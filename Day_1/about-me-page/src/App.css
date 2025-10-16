@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #05771e;
+  padding: 20px 0;
+}
+
+.skill {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.location {
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #fff;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 18px;
+  color: #eeecec;
+}
+
+h2 {
+  font-size: 32px;
+  color: #05771e;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+li {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.tech-speical {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #05771e;
+  color: #fff;
+  padding: 20px 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
