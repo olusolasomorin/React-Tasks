@@ -14,7 +14,7 @@
 **Sample Output:**
 
 ## Desktop view
-![Profile](<Screenshot 2025-10-16 020545.png>)
+![alt text](<Screenshot 2025-10-16 140656.png>)
 
 ## Mobile view
-![Profile](<Screenshot 2025-10-16 021411.png>)
+![alt text](<Screenshot 2025-10-16 140800.png>)
