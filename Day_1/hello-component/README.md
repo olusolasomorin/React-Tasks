@@ -11,4 +11,4 @@
 3. Import and display it in `App.jsx`
 
 **My Output:**
-![Result of the task](<Screenshot 2025-10-16 002223.png>)
+![Result of the task](<Screenshot 2025-10-16 012537.png>)
