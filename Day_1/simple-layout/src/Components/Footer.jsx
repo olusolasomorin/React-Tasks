@@ -3,7 +3,7 @@ function Footer() {
 
     return (
         <footer>
-            <p>© {year} Naija Tech Hub. All rights reserved.</p>
+            <p>© {year} My App.</p>
         </footer>
     );
 }

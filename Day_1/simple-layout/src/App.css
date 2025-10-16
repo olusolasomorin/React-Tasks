@@ -6,7 +6,7 @@
 
 header {
   display: flex;
-  background-color: #0d9b25;
+  background-color: #0d4f9b;
   justify-content: space-between;
   color: #fff;
   padding: 22px 28px;
@@ -44,7 +44,7 @@ p {
 }
 
 footer {
-  background-color: #0d9b25;
+  background-color: #0d4f9b;
   color: #fff;
   line-height: 80px;
   text-align: center;

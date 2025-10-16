@@ -11,4 +11,4 @@
 
 **Sample Output:**
 
-![output](<Screenshot 2025-10-16 023052.png>)
+![output](<Screenshot 2025-10-16 134646.png>)
