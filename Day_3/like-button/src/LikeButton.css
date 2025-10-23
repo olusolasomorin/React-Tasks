@@ -1,0 +1,52 @@
+.liked {
+    background-color: #ee4a4a;
+
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.liked:hover {
+    background-color: rgb(235, 149, 163);
+    cursor: pointer;
+}
+
+.unliked {
+    background-color: gray;
+}
+
+.unliked:hover {
+    background-color: rgb(117, 114, 114);
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.text-lg {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.parent {
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 20%;
+    text-align: center;
+    padding: 24px 24px;
+    border-radius: 8px;
+}
+
+body {
+    background-color: #e2dfdf;
+}
