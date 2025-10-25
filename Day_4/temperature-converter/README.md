@@ -13,6 +13,6 @@
 6. Formula: F = (C × 9/5) + 32, C = (F - 32) × 5/9
 
 **Output:**
-![alt text](<Screenshot 2025-10-24 111225.png>)
+![alt text](<Screenshot 2025-10-24 162135.png>)
 
-![alt text](<Screenshot 2025-10-24 111251.png>)
+![alt text](<Screenshot 2025-10-24 162315.png>)

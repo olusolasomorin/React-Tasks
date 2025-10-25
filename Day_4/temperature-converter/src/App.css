@@ -9,24 +9,26 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #f9f9f9;
   position: absolute;
   margin: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 25%;
+  width: 20%;
   border-radius: 8px;
-  border: 2px solid #e709dc;
+  border: 2px solid #0b792c;
+  padding: 24px 0;
 }
 
 h2 {
   text-align: center;
-  color: #e2850c;
+  color: #0b792c;
 }
 
 .head-text {
-  color: #e709dc;
+  color: #0b792c;
+  margin: 15px;
 }
 
 .temp-cont {
@@ -48,7 +50,7 @@ h2 {
 }
 
 label {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #000;
@@ -57,10 +59,4 @@ label {
 input {
   padding: 12px 12px;
   border-radius: 6px;
-  border: 2px solid #e709dc;
-}
-
-input:focus {
-  outline: 1px solid #e709dc;
-  border: 1px solid #e709dc;
 }
