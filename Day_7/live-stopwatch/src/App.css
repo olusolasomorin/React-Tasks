@@ -1,0 +1,157 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #111827; 
+    color: #ffffff;
+    margin: 0;
+}
+
+.stopwatch-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box; 
+}
+
+.stopwatch-card {
+    width: 100%;
+    max-width: 28rem; 
+    padding: 2rem; 
+    background-color: #1f2937; 
+    border-radius: 1rem; 
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    text-align: center;
+}
+
+.stopwatch-title {
+    font-size: 2.25rem; 
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1.5rem; 
+    color: #22d3ee; 
+}
+
+.time-display {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 6rem; 
+    font-weight: 700;
+    margin-bottom: 2rem; 
+    padding: 1rem;
+    background-color: #111827; 
+    border-radius: 0.5rem; 
+    font-variant-numeric: tabular-nums;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; 
+    margin-bottom: 2rem; 
+}
+
+.btn {
+    width: 6rem; 
+    padding: 0.75rem 1rem; 
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+}
+
+.btn-start { 
+    background-color: #16a34a; 
+}
+.btn-start:hover { 
+    background-color: #15803d; 
+}
+
+.btn-pause { 
+    background-color: #ca8a04;
+}
+.btn-pause:hover { 
+    background-color: #a16207;
+}
+
+.btn-lap { 
+    background-color: #2563eb;
+}
+.btn-lap:hover { 
+    background-color: #1d4ed8; 
+}
+
+.btn-reset { 
+    background-color: #dc2626; 
+}
+.btn-reset:hover { 
+    background-color: #b91c1c;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.laps-container {
+    border-top: 1px solid #374151; 
+    padding-top: 1.5rem; 
+}
+
+.laps-title {
+    font-size: 1.5rem; 
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem; 
+    color: #67e8f9; 
+    text-align: left;
+}
+
+.laps-list {
+    max-height: 12rem; 
+    overflow-y: auto;
+    background-color: #111827; 
+    border-radius: 0.5rem; 
+    padding: 0.75rem; 
+    text-align: left;
+}
+
+.laps-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.laps-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.125rem; 
+    padding: 0.5rem; 
+    background-color: #1f2937; 
+    border-radius: 0.25rem; 
+}
+
+
+.laps-list li:not(:last-child) {
+    margin-bottom: 0.5rem; 
+}
+
+.lap-number {
+    color: #9ca3af; 
+}
+
+.lap-time {
+    color: #ffffff;
+}
