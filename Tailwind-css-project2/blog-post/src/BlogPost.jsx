@@ -36,7 +36,7 @@ export default function BlogPost() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="font-bold text-2xl text-indigo-600">
-              MyAwesomeBlog
+              MyBlog
             </div>
             <div className="flex space-x-4 text-gray-700">
               <a href="#" className="hover:text-indigo-600">Home</a>
@@ -56,7 +56,7 @@ export default function BlogPost() {
             
             <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[450px] overflow-hidden">
               <img
-                src="https://placehold.co/1200x600/6366f1/ffffff?text=My+Blog+Post"
+                src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg"
                 alt="Featured blog post about web development"
                 className="w-full h-full object-cover"
               />
@@ -77,49 +77,14 @@ export default function BlogPost() {
 
                 <div className="prose prose-lg max-w-none lg:col-span-2">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. It may, however, also include web design, web programming, and database management.
                   </p>
                   
-                  <h2>A New Era of Frameworks</h2>
                   <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Web development is closely related to the job of designing the features and functionality of apps (web design). The term development is usually reserved for the actual construction of these things (that is to say, the programming of sites).
                   </p>
                   <p>
-                    Nulla facilisi. Phasellus suscipit, sapien vel hendrerit
-                    maximus, libero erat commodo augue, ac pulvinar elit
-                    mauris quisPellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas.
-                  </p>
-
-                  <blockquote>
-                    "The key to good design is not how it looks, but how it
-                    works. And in web development, that means performance,
-                    accessibility, and user experience."
-                  </blockquote>
-
-                  <h2>The Headless CMS Revolution</h2>
-                  <p>
-                    Integer posuere erat a ante venenatis dapibus posuere velit
-                    aliquet. Morbi leo risus, porta ac consectetur ac,
-                    vestibulum at eros. Praesent commodo cursus magna, vel
-                    scelerisque nisl consectetur et.
-                  </p>
-                  <ul>
-                    <li>Performance and Speed</li>
-                    <li>Scalability and Flexibility</li>
-                    <li>Security Enhancements</li>
-                  </ul>
-                  <p>
-                    Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                    dolor auctor. Donec id elit non mi porta gravida at eget
-                    metus. Maecenas sed diam eget risus varius blandit sit amet
-                    non magna.
+                    The basic tools involved in web development are programming languages called HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript. There are, however, a number of other programs used to “manage” or facilitate the construction of sites that would otherwise have to be done “from scratch” by writing code. A number of content management systems (CMS) fall into this category, including WordPress, Joomla!, Drupal, TYPO3, and Adobe Experience Manager, among others.
                   </p>
                 </div>
 
@@ -162,7 +127,7 @@ export default function BlogPost() {
       </main>
 
       <footer className="text-center py-8 text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} MyAwesomeBlog. All rights reserved.
+        &copy; {new Date().getFullYear()} MyBlog. All rights reserved.
       </footer>
     </div>
   );
